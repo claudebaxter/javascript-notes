@@ -100,3 +100,16 @@ for (let counter = 0; counter < 10; counter = counter + 1) {
 console.log(result);
 
 //Yields 1024//
+
+//Break statement: breaking out of a loop//
+
+for (let current = 20; ; current = current + 1) {
+  if (current % 7 == 0) {
+    console.log(current);
+    break;
+  }
+}
+
+//Using the remainder % operator is an easy way to test if a number is divisible//
+//by another number--if it is, the remaider of their division is 0.
+//Remember--the 2nd ; in the parenthesis  after the for statement is because for statements require two semincolons//
