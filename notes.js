@@ -44,7 +44,7 @@ while (number <= 12) {
 
 let result = 1;
 let counter = 0;
-while (cpimter < 10) {
+while (counter < 10) {
   result = result * 2;
   counter = counter + 1;
 }
