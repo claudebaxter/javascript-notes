@@ -40,7 +40,7 @@ while (number <= 12) {
 //by an expression in parentheses.//
 
 //Example of program that calculates 2 to the 10th power://
-//using multiple bindings//
+//Loop using multiple bindings//
 
 let result = 1;
 let counter = 0;
@@ -51,3 +51,16 @@ while (counter < 10) {
 console.log(result);
 
 //Yields 1024 in browser (2 to the 10th power)//
+
+//A do loop is similar to a while loop, it only differs on one
+//point: a do loop always executes its body at least once, and
+//it starts testing whether it should stop only after that first execution.
+
+let yourName;
+do {
+  yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName);
+
+//This program will force you to enter a name (something that is not
+//an empty string) by repeatedly asking for a name.
