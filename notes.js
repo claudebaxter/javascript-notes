@@ -1,3 +1,4 @@
+//bindings are let = statements//
 // conditional execution //
 
 let theNumber = Number(prompt("pick a number"));
@@ -35,3 +36,18 @@ while (number <= 12) {
 }
 
 //This loop will log all even numbers between 0 - 12 in the console//
+//Statements starting with the keyword while creates a loop, followed//
+//by an expression in parentheses.//
+
+//Example of program that calculates 2 to the 10th power://
+//using multiple bindings//
+
+let result = 1;
+let counter = 0;
+while (cpimter < 10) {
+  result = result * 2;
+  counter = counter + 1;
+}
+console.log(result);
+
+//Yields 1024 in browser (2 to the 10th power)//
