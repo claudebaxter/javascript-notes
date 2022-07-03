@@ -64,3 +64,15 @@ console.log(yourName);
 
 //This program will force you to enter a name (something that is not
 //an empty string) by repeatedly asking for a name.
+
+//Line breaks and spacing and indentation are not required, they are
+//based on preference and usualy used to make code easier to read, though
+//you can write an entire program on one line if desired.
+//See block of code below for example:
+
+if (false != true) {
+  console.log("That makes sense.");
+  if (1 < 2) {
+    console.log("No surprise there.");
+  }
+}
