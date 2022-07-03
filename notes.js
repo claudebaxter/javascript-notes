@@ -88,3 +88,15 @@ for (let number = 0; number <= 12; number = number + 2) {
 
 //This is the same program as earlier, the only change is that all statements//
 //that are related to the "state" of the loop are grouped together after for.//
+//Parenthese after a for keyword must contain two semicolons. The part before//
+//the 1st semicolon initilizaes the loop, usually by defining a binding.//
+
+//Here's another example, how to calculate 2 to the 10th power://
+
+result = 1; //I removed "let" from before result because it was declared earlier in the code--you would need to include let for this to work on its own.//
+for (let counter = 0; counter < 10; counter = counter + 1) {
+  result = result * 2;
+}
+console.log(result);
+
+//Yields 1024//
