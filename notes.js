@@ -25,3 +25,13 @@ if (num < 10) {
 }
 
 //0-9 returns Small, 10-99 returns Medium, 100+ returns Large//
+
+//Control flow: loop example//
+
+let number = 0;
+while (number <= 12) {
+  console.log(number);
+  number = number + 2;
+}
+
+//This loop will log all even numbers between 0 - 12 in the console//
