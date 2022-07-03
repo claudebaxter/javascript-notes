@@ -76,3 +76,15 @@ if (false != true) {
     console.log("No surprise there.");
   }
 }
+
+// Loops usually follow pattern: 1st a "counter binding," 2nd a "while loop"//
+//followed by test expression to see if counter has reached end value.
+//Because this is so common, JS and similar languages have a slightly shorter//
+//and more comprehensive form, the "for loop"//
+
+for (let number = 0; number <= 12; number = number + 2) {
+  console.log(number);
+}
+
+//This is the same program as earlier, the only change is that all statements//
+//that are related to the "state" of the loop are grouped together after for.//
