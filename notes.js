@@ -113,3 +113,21 @@ for (let current = 20; ; current = current + 1) {
 //Using the remainder % operator is an easy way to test if a number is divisible//
 //by another number--if it is, the remaider of their division is 0.
 //Remember--the 2nd ; in the parenthesis  after the for statement is because for statements require two semincolons//
+//Without this break statement, or if you accidentally write an end condition that always prdocues true,//
+//your program would get stuck in an infinite loop. This is a bad thing.//
+
+//Example of a construct called switch that is intended to espress chiained if/else pairs://
+
+switch (prompt("What is the weather like?")) {
+  case "rainy":
+    console.log("Remember to bring an umbrella.");
+    break;
+  case "sunny":
+    console.log("Dress lightly.");
+  case "cloudy":
+    console.log("Go outside.");
+    break;
+  default:
+    console.log("Unknown weather type!");
+    break;
+}
