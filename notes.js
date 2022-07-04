@@ -131,3 +131,38 @@ switch (prompt("What is the weather like?")) {
     console.log("Unknown weather type!");
     break;
 }
+
+//Exercise 1: Write a loop that makes seven calls to console.log to produce a triangle of #s
+
+for (let string = "#"; string <= "#######"; string += "#") {
+  console.log(string);
+}
+
+//Remember that strings must be enclosed by ""
+
+//Exercise 2: Use console.log to print all numbers from 1 to 100 with 2 exceptions--
+//all numbers divisible by 3 will print "Fizz" and all numbers divisible by 5 (and
+//not 3) will print Buzz.
+
+for (let number = 0; number <= 100; number = number + 1) {
+  if (number % 3 == 0) {
+    console.log("Fizz");
+  } else if (number % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log(number);
+  }
+}
+
+//Exercise 3: Write a program that creates a string that represents an 8x8 grid of
+//# characters.
+
+let oddline = " # # # #";
+let evenline = "# # # # ";
+for (let counter = 0; counter < 8; counter += 1) {
+  if (counter % 2 == 0) {
+    console.log(evenline);
+  } else if (counter % 2 != 0) {
+    console.log(oddline);
+  }
+}
